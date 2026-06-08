@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link type="image/png" sizes="16x16" rel="icon" href="./favicon/3dweb.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Amorim | 3dCube</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">PH</div>
+        <input type="checkbox" id="menu-toggle">
+        <label class="menu-toggle" for="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <ul class="nav-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#solutions">Solutions</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button class="sign-in-btn">Sign In</button></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-left">
+                <h1>Experience the Future of Digital Innovation</h1>
+                <p>Immerse yourself in cutting-edge technology that transforms your vision into extraordinary digital
+                    realities.</p>
+                <button class="cta-button">Get Started <i class="fa-solid fa-arrow-right arrow-right"
+                        style="color: #000000"></i></button>
+            </div>
+
+            <div class="hero-right">
+                <spline-viewer class="cube"
+                    url="https://prod.spline.design/hKyUxccx9NdcaLpK/scene.splinecode"></spline-viewer>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.97/build/spline-viewer.js"></script>
+</body>
+
+</html>
